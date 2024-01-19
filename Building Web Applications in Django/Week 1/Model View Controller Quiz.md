@@ -1,45 +1,45 @@
 # Model View Controller Quiz
 
-1. Which of these might you find in the View of a Django MVC application?
-   - [x] HTML
-   - [] SQL 
-   - [] Python
-   - [] PHP
+### 1. Which of these might you find in the View of a Django MVC application?
+- [x] HTML
+- [ ] SQL 
+- [ ] Python
+- [ ] PHP
 
-2. Which of these might you find in the Model of a Django MVC application?
-   - [] HTML
-   - [x] SQL 
-   - [] Python
-   - [] PHP
+### 2. Which of these might you find in the Model of a Django MVC application?
+- [ ] HTML
+- [x] SQL 
+- [ ] Python
+- [ ] PHP
 
-3. Which of these might you find in the Controller of a Django MVC application?
-   - [] HTML
-   - [] SQL 
-   - [x] Python
-   - [] PHP
-4. Which of the following is typically the first task when handing an incoming HTTP request in a web server code?
-   - [x] Handle check the input data 
-   - [] Store the input data
-   - [] Retrieve any needed data for the View
-   - [] Produce and return the HTTP Response
+### 3. Which of these might you find in the Controller of a Django MVC application?
+- [ ] HTML
+- [ ] SQL 
+- [x] Python
+- [ ] PHP
+### 4. Which of the following is typically the first task when handing an incoming HTTP request in a web server code?
+- [x] Handle check the input data 
+- [ ] Store the input data
+- [ ] Retrieve any needed data for the View
+- [ ] Produce and return the HTTP Response
 
-5. Which if the following files does Django consult first when it receives an incoming HTTP Request?
-   - [x] urls.py
-   - [] views.py
-   - [] models.py
-   - [] forms.py
-   - [] templates/polls/main.html
+### 5. Which if the following files does Django consult first when it receives an incoming HTTP Request?
+- [x] urls.py
+- [ ] views.py
+- [ ] models.py
+- [ ] forms.py
+- [ ] templates/polls/main.html
    
-6. Which of the following files in a Django application most closely captures the notion of "View"?
-   - [] urls.py
-   - [] views.py
-   - [] models.py
-   - [] forms.py
-   - [x] templates/polls/main.html
+### 6. Which of the following files in a Django application most closely captures the notion of "View"?
+- [ ] urls.py
+- [ ] views.py
+- [ ] models.py
+- [ ] forms.py
+- [x] templates/polls/main.html
    
-7. Which file represents the "Controller" aspect of a Django application?
-   - [x] More than one file
-   - [] models.py
-   - [] forms.py
-   - [] views.py
+### 7. Which file represents the "Controller" aspect of a Django application?
+- [x] More than one file
+- [ ] models.py
+- [ ] forms.py
+- [ ] views.py
  
