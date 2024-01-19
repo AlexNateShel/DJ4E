@@ -5,9 +5,9 @@
 <a href="http://www.dr-chuck.com/page2.htm">Second Page</a>
 ```
 - [x] The reference is an absolute reference
-- [] The text "Second Page" is improperly placed and will not be seen
-- [] The reference is a relative reference
-- [] The HTML is improperly formed and there will be a syntax error
+- [ ] The text "Second Page" is improperly placed and will not be seen
+- [ ] The reference is a relative reference
+- [ ] The HTML is improperly formed and there will be a syntax error
 
 ### 2. What do you put at the beginning of an HTML file to inform the browser which variant of HTML you will be using in this document?
 - [] `<meta type>`
