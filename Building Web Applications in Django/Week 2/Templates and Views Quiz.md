@@ -18,7 +18,7 @@
 - [x] Returns an absolute path reference matching a given view and optional parameters
 - [ ] Emits an achor (a) tag in the HTML
 
-### 4. What built-in Django template filter capitalizes the first character of the value>
+### 4. What built-in Django template filter capitalizes the first character of the value?
 - [ ] toUCFirst
 - [ ] toupper
 - [x] capfirst
