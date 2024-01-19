@@ -10,61 +10,61 @@
 - [ ] The HTML is improperly formed and there will be a syntax error
 
 ### 2. What do you put at the beginning of an HTML file to inform the browser which variant of HTML you will be using in this document?
-- [] `<meta type>`
+- [ ] `<meta type>`
 - [x] DOCTYPE
-- [] `<xs:sequence>`
-- [] `<?xml version>`
-- [] `<body>`
-- [] `<html>`
+- [ ] `<xs:sequence>`
+- [ ] `<?xml version>`
+- [ ] `<body>`
+- [ ] `<html>`
 
 ### 3. What is the preferred tag in modern HTML to indicate that text is to be shown in __bold__ format?
    - [x] strong
-   - [] span
-   - [] bold
-   - [] b
-- [] `<xs:bold>`
+   - [ ] span
+   - [ ] bold
+   - [ ] b
+- [ ] `<xs:bold>`
 
 ### 4. What is the preferred tag in modern HTML to indicate that text is to be shown in *italics* format?
-- [] `<xs:italics>`
-- [] italics
+- [ ] `<xs:italics>`
+- [ ] italics
 - [x] em
-- [] span
-- [] i
+- [ ] span
+- [ ] i
 
 ### 5. What organization is responsible for standards for HTML and the web?
-- [] Unesco
-- [] CERN
-- [] NCSA
+- [ ] Unesco
+- [ ] CERN
+- [ ] NCSA
 - [x] World Wide Web Consortium
-- [] HTMLco.com
+- [ ] HTMLco.com
 
 ### 6. What is the HTML tag for a item in a bulletted list?
-- [] list:item
-- [] bullet
-- [] item
-- [] tag
+- [ ] list:item
+- [ ] bullet
+- [ ] item
+- [ ] tag
 - [x] li
 
 ### 7. Which is the correct ordering of opening tags in a well-formed html document? 
-- [] h1 body
-- [] title head html h1
+- [ ] h1 body
+- [ ] title head html h1
 - [x] html head title body h1
-- [] body html h1 head title
+- [ ] body html h1 head title
 
 ### 8. What is the start of an HTML comment?
-- [] /*
-- [] '''
+- [ ] /*
+- [ ] '''
 - [x] <!--
-- [] #
+- [ ] #
 
 ### 9. What tag is used in a document's <head> area to set the text shown in the tab of the browser or title bar? 
-- [] meta
-- [] script
+- [ ] meta
+- [ ] script
 - [x] title
-- [] style
+- [ ] style
 
 ### 10. In HTML, what attribute is used to indicate text that will be showin if an image is not loaded or read to a user who is using a screen reader?
-- [] onclick
-- [] href
-- [] src
+- [ ] onclick
+- [ ] href
+- [ ] src
 - [x] alt
