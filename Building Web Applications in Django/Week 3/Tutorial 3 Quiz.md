@@ -1,5 +1,5 @@
 # Tutorial 3 
-
+ 
 ### These Questions come from the Django project tutoril materials.
 
 ### 1. When you see a path with the following pattern in urls.py, path('<int:question_id>/', views.detail, name='detail'), where in the code does the question_id value parsed from the URL end up?
