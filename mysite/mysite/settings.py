@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     "hello.apps.HelloConfig",
     "home.apps.HomeConfig",
     "polls.apps.PollsConfig",
+    "autos.apps.AutosConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
