@@ -29,8 +29,9 @@
 - [x] Information is added to the session
 
 ### 6. What string is returned by in dj4e-samples?
-`x = django.urls.reverse('login')`
-
+```
+x = django.urls.reverse('login')
+```
 - [ ] /login
 - [x] /accounts/login
 - [ ] /dj4e-samples/login
