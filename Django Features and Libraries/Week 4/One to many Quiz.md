@@ -8,50 +8,49 @@
 - [ ] Ability to execute JavaScript in the file
 
 ### 2. Which of the following is NOT a good rule to follow when developing a database model?
-- [x] Use a person's email address as their primary key
 - [ ] Never repeat string data in more than one table in a data model
+- [x] Use a person's email address as their primary key
 - [ ] Use integers as primary keys
 - [ ] Model each "object" in the application as one or more tables
 
 ### 3. If our user interface (i.e., like iTunes) has repeated strings on one column of the UI, how should we model this properly in a database?
 - [ ] Put the string in the last row where it occurs and put the number of that row in the column of all of the rest of the rows where the string occurs
+- [x] Make a table that maps the string in the column to numbers and then use those numbers in the column
 - [ ] Encode the entire row as JSON and store it in a TEXT column in the database
 - [ ] Put the string in the first row where it occurs and then put that row number in the column of all of the rest of the rows where the string occurs
-- [x] Make a table that maps the string in the column to numbers and then use those numbers in the column
 - [ ] Put the string in the first row where it occurs and then NULL in all of the other rows
 
 ### 4. Which of the following is the label we give a column that the "outside world" uses to look up a particular row?
 - [x] Logical key
-- [ ] Primary key
 - [ ] Local key
+- [ ] Primary key
 - [ ] Remote key
 - [ ] Foreign key
 
 ### 5. What is the label we give to a column that is an integer and is used to point to a row in a different table?
-
 - [ ] Local key
-- [x] Foreign key
-- [ ] Remote key
+- [ ] Remote ke
+- [x] Foreign keyy
 - [ ] Logical key
 - [ ] Primary key
 
 ### 6. What is a simple rule that captures much of the concepts of "database normalization"?
-- [ ] Every SELECT statement must use a JOIN clause
 - [x] Don't replicate string data in a column
+- [ ] Every SELECT statement must use a JOIN clause
 - [ ] Do not point to a primary key more than once
 - [ ] Don't use any non-standard SQL statements
 
 ### 7. What is the SQL keyword that reconnects rows containing foreign keys with the corresponding data in the table that the foreign keys point to?
 - [ ] COUNT
 - [ ] APPEND
+- [x] JOIN
 - [ ] CONNECT
 - [ ] CONSTRAINT
-- [x] JOIN
 
 ### 8. If we are following the default convention in Django, which of the following column names would be used for a foreign key in table "abc" that is pointing to a primary key in table "xyz"?
 - [ ] id
-- [ ] abc_xyz_id
 - [x] xyz_id
+- [ ] abc_xyz_id
 - [ ] abc_id
 
 ### 9. If we are following the default convention in Django, which of the following column names would be used for a primary key in table "xyz" that is pointed to from a foreign key in table "abc"?
