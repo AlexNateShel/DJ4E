@@ -34,6 +34,10 @@ INSTALLED_APPS = [
     # My Apps
     'home.apps.HomeConfig',
     'ads.apps.AdsConfig',
+    'polls.apps.PollsConfig',
+    'hello.apps.HelloConfig',
+    'autos.apps.AutosConfig',
+    'cats.apps.CatsConfig',
 ]
 
 

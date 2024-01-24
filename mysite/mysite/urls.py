@@ -7,10 +7,14 @@ from django.views.static import serve
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('', include('home.urls')),  # Change to ads.urls
+    path('', include('home.urls')),
     path('admin/', admin.site.urls),
-    path('accounts/', include('django.contrib.auth.urls')),
     path('ads/', include('ads.urls')),
+    path('polls/', include('polls.urls')),
+    path('hello/', include('hello.urls')),
+    path('autos/', include('autos.urls')),
+    path('cats/', include('cats.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
     re_path(r'^oauth/', include('social_django.urls', namespace='social')),
 ]
 
