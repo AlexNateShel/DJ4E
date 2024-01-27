@@ -1,7 +1,7 @@
 from django import forms
-from pics.models import Pic
+from ads.models import Ad
 from django.core.files.uploadedfile import InMemoryUploadedFile
-from pics.humanize import naturalsize
+from ads.humanize import naturalsize
 
 
 # Create the form class.
@@ -17,8 +17,8 @@ class CreateForm(forms.ModelForm):
 
     # Hint: this will need to be changed for use in the ads application :)
     class Meta:
-        model = Pic
-        fields = ['title', 'text', 'picture']  # Picture is manual
+        model = Ad
+        fields = ['title', 'text', 'price', 'picture']  # Picture is manual
 
     # Validate the size of the picture
     def clean(self):
@@ -45,7 +45,12 @@ class CreateForm(forms.ModelForm):
 
         return instance
 
-# https://docs.djangoproject.com/en/4.2/topics/http/file-uploads/
+# strip means to remove whitespace from the beginning and the end before storing the column
+class CommentForm(forms.Form):
+    comment = forms.CharField(required=True, max_length=500, min_length=3, strip=True)
+
+
+# https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/
 # https://stackoverflow.com/questions/2472422/django-file-upload-size-limit
 # https://stackoverflow.com/questions/32007311/how-to-change-data-in-django-modelform
-# https://docs.djangoproject.com/en/4.2/ref/forms/validation/#cleaning-and-validating-fields-that-depend-on-each-other
+# https://docs.djangoproject.com/en/3.0/ref/forms/validation/#cleaning-and-validating-fields-that-depend-on-each-other
