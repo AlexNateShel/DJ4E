@@ -26,7 +26,6 @@
 - [x] By including the code the <?javascript and ?> tags
 - [ ] On a tag using an attribute like onclick="" 
 - [ ] By including a file containing JavaScript using a <script> tag
-- [ ] 
 
 ### 4. In the following code, what does the "return false" accomplish?
 ```
